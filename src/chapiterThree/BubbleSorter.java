@@ -5,12 +5,12 @@ import java.util.Arrays;
 public class BubbleSorter {
     public static void main(String[] args) {
 
-        int myArr[] = {4, 3, 7, 5, 9, 1};
+        int[] myArr = {4, 3, 7, 5, 9, 1};
         System.out.print(Arrays.toString(myArr) + " => ");
         BubbleSort(myArr);
         System.out.println(Arrays.toString(myArr));
 
-        int myArr2[] = {9, 18, 4, 3, 19, 34};
+        int[] myArr2 = {9, 18, 4, 3, 19, 34};
         System.out.print(Arrays.toString(myArr2) + " => ");
         SelectionSort(myArr2);
         System.out.println(Arrays.toString(myArr2));
